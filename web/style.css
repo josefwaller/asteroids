@@ -1,0 +1,166 @@
+canvas
+{
+	display : block;
+	margin : auto;
+}
+#header
+{
+	width : 900px;
+
+	display : block;
+
+	font-family : "Walkway";
+	font-weight : bold;
+	font-size : 100px;
+
+	color : #ca0000;
+	text-transform : uppercase;
+
+	margin-top : 40px;
+	margin-left : auto;
+	margin-right : auto;
+}
+#button-cont
+{
+
+	width : 900px;
+	height : 60px;
+
+	margin : 20px auto;
+
+	text-align : justify;
+	position : relative;
+
+}
+
+#button-cont > .top-button
+{
+	text-decoration : none;
+	border : 0px;
+
+	height : 100%;
+	width : 30%;
+
+	display : inline-block;
+	position : absolute;
+
+	font-size : 40px;
+	font-family : "Walkway";
+	color : #ffffff;
+	text-transform : uppercase;
+
+	background-color : #ca0000;
+}
+
+.top-button:nth-child(1)
+{
+
+	left : 0px;
+
+}
+
+.top-button:nth-child(2)
+{
+
+	right : 0;
+	left : 0;
+	margin-left : auto;
+	margin-right : auto;
+
+}
+
+.top-button:nth-child(3)
+{
+	right : 0px;
+
+}
+
+#button-cont > .bot-button
+{
+	text-decoration : none;
+	border : 0px;
+
+	height : 100%;
+	width : 45%;
+
+	display : inline-block;
+	position : absolute;
+
+	font-size : 40px;
+	font-family : "Walkway";
+	color : #ffffff;
+	text-transform : uppercase;
+
+	background-color : #ca0000;
+}
+
+.bot-button:nth-child(1)
+{
+
+	left : 0px;
+
+}
+
+.bot-button:nth-child(2)
+{
+
+	right : 0px;
+
+}
+
+#output-cont
+{
+
+	position : absolute;
+
+	width : 500px;
+	height : 350px;
+
+	left : 0;
+	right : 0;
+	top : 40%;
+	margin : auto;
+
+	background-color : #ffffff;
+
+	display : none;
+
+}
+
+#output-cont > button
+{
+
+	border : 0px;
+
+	width : 300px;
+	height : 35px;
+	background-color : #ca0000;
+
+	display : block;
+	margin : auto;
+	margin-top : 7px;
+
+	color : #ffffff;
+	font-size : 20px;
+	font-family : "Walkway";
+	font-weight : bold;
+
+}
+
+#output-cont > div
+{
+	width : 500px;
+	height : 300px;
+	background-color : #ffffff;
+
+	color : #ca0000;
+	font-size : 20px;
+	font-family : "Walkway";
+	font-weight : bold;
+
+	box-sizing : border-box;
+	padding : 10px;
+
+	overflow-y : auto;
+	word-wrap: break-word;
+}
