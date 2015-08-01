@@ -2,12 +2,12 @@
 
 	//MySQL Variables
 
-	$url = parse_url(getenv("mysql://b2225b012a910f:251b7a34@us-cdbr-iron-east-02.cleardb.net/heroku_f4448e4534ea816?reconnect=true"));
+	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 	$servername = $url["host"];
 	$username = $url["user"];
 	$password = $url["pass"];
-	$db_name = "eve_codes";
+	$db_name = substr($url["path"], 1);
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password);
