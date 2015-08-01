@@ -2,6 +2,10 @@
 	<head>
 		<title>Evolution</title>
 		<script src="script.js"></script>
+		<script src="setup.js"></script>
+		<script src="simFuncs.js"></script>
+		<script src="coding.js"></script>
+		<script src="jquery.js"></script>
 		<link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body onload="setup();">
@@ -20,7 +24,7 @@
 		<canvas id="canvas"></canvas>
 
 		<div id="button-cont">
-			<button class="bot-button" onclick="showOutput();">Save</button>
+			<button class="bot-button" onclick="save();">Save</button>
 			<button class="bot-button" onclick="enter();">Load</button>
 		</div>
 		<div id="output-cont">
