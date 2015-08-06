@@ -6,10 +6,31 @@
 		<script src="simFuncs.js"></script>
 		<script src="coding.js"></script>
 		<script src="jquery.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index-style.css" type="text/css">
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body onload="setup();">
-		<div id="header">Evolution</div>
+
+		<div class="container">
+
+			<div id="header">
+				<div id="header-title">
+					Josefwaller.com
+				</div>
+				<div id="header-menu">
+					<a href="index.php" class="header-button">Home</a>
+					<div class="header-button" id="dropdown">
+						<div class="dropdown-item" id="red">Stuff</div>
+						<a class="dropdown-item" href="evolution.php" id="orange">Evolution</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sub-header">Evolution</div>
 
 		<div id="button-cont">
 			<button class="top-button" name="start-button" onclick="
