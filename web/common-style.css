@@ -1,6 +1,6 @@
 @font-face
 {
-	font-family: "Walkway";
+	font-family: Walkway;
 	src: url(walkway.ttf);
 }
 #header
@@ -21,7 +21,7 @@ div, a
 	padding-left: 5px;
 	padding-top : 4px;
 	color: #ffffff;
-	font-family: "Walkway";
+	font-family: Walkway;
 	font-size: 37px;
 	text-align: center;
 	display: inline-block;
@@ -44,7 +44,7 @@ div, a
 	height: 100%;
 	display: inline-block;
 	vertical-align: middle;
-	font-family: "Walkway";
+	font-family: Walkway;
 	font-size: 25px;
 	padding-top : calc(25px - 13px);
 	box-sizing: border-box;
@@ -76,7 +76,7 @@ div, a
 	padding-top : calc(25px - 13px);
 	display: inline-block;
 	vertical-align: middle;
-	font-family: "Walkway";
+	font-family: Walkway;
 	font-size: 25px;
 	box-sizing: border-box;
 	color: #ffffff;
@@ -95,7 +95,7 @@ div, a
 }
 h1, label
 {
-	font-family: "Walkway";
+	font-family: Walkway;
 }
 #desc
 {
