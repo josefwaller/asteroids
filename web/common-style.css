@@ -1,3 +1,8 @@
+@font-face
+{
+	font-family: "Walkway";
+	src: url(walkway.ttf);
+}
 #header
 {
 	width: 100%;
